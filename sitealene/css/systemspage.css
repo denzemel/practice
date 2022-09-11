@@ -1,0 +1,75 @@
+/* Перечень систем(блок) */
+.list-system{
+	margin: 25px 0 20px 20px;		
+	list-style: none;
+}
+
+#ddmenu{
+	display: flex;
+}
+#ddmenu span{
+	margin: 0 0 0 40px;
+}
+#ddmenu span ul {
+	display: none;
+}
+#ddmenu>span>li{
+	margin: 0 0 5px 0;
+	width: 450px;
+}
+
+/* Ссылка, название системы */
+.droplink{
+	width: 100%;
+	font-size: 26px;
+	font-family: Arial;
+	font-weight: bold;
+	letter-spacing: -1px;
+	background-color:rgb(247, 183, 87);
+	padding: 5px 0 5px 6px; 
+	display: inline-block;
+	outline: 1px black solid;
+	border-bottom: 2px solid rgb(217, 153, 57);
+	border-top: 2px solid rgb(267, 203, 107);
+	transition: 0.2s;
+	color: rgb(30,30,30);
+	box-shadow: 0 2px 2px grey;
+}
+.droplink:hover{
+	transform: translate(4px,0) scale(1.029);
+	color: black;
+}
+.droplink:active{
+	transform: scale(1);
+	box-shadow: none;
+}
+.droplink:focus{
+	transform: scale(1);
+	box-shadow: none;
+}
+
+
+/* Выпадающее меню */
+.dropmenu_list{
+	outline: 1px black solid;
+	font-size: 17px;
+	list-style: none;
+	width: 100%;
+	display: flex;
+	background-color: #ededed;
+	font-family: tahoma;
+	margin: 1px 0 20px auto;
+	transition: 0.2s;
+}
+.dropmenu_list li a{
+	padding: 7px 0 7px 15px;
+	display: block;
+
+}
+.dropmenu_list li a:hover{
+	color: #fff;
+	background-color: rgb(50, 50, 50);
+	border-left: 4px solid rgb(247, 183, 87);
+	transition: 0.2s;
+
+}

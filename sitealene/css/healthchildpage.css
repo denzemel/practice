@@ -1,0 +1,13 @@
+.list-health ul{
+	font-size: 27px;
+	margin: 20px 50px;
+	letter-spacing: -1px;
+}
+.list-health li{
+	margin: 0 0 25px 10px;
+}
+.list-health a:hover{
+	color: #2B74E9;
+	background-color: rgba(0,0,0,0);
+	text-decoration: underline;
+}

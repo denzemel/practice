@@ -1,0 +1,123 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+}
+nav,footer,header,aside{
+	display: block;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 14px;	
+	font-family: Verdana;
+	padding: 0 0 50px 0;
+}
+body{
+	background-color: rgba(255, 5, 5, 0.5);
+	background: url('../img/backg.jpg');
+}
+
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Шапка(блок) */
+.head{
+	background-color: rgb(0,0,0);
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 26px 0;
+
+}
+
+/* Блок "На главную"(блок) */
+.back-home{
+	position: fixed;
+	color: white;
+	display: inline-block;
+	right: 22px;
+	font-style: fantasy;
+	transition: 0.3s;
+	background-color: rgb(60,60,60);
+	border-top: 2px solid rgb(75,75,75);
+	border-bottom: 2px solid rgb(40,40,40);
+	outline: 1px black solid;
+	padding: 3px 4px;
+	text-shadow: 1px 2px 0 black;
+	box-shadow: 0 1px 1px grey;
+}
+.back-home:hover{
+	background-color: rgba(70,70,70,1);
+	text-shadow: 1px 2px 0 black;
+}
+.back-home:active{
+	-webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+   	transform: scale(0.9);
+}
+
+/* Основной блок со всем(блок) */					
+.main-block{
+    margin: 10px 100px 50px 100px;
+    padding: 25px 0 30px 0;
+}
+.main-block .title{
+	margin: 0 0 0 60px;
+	font-size: 35px;
+	font-weight: 400;
+	display: inline-block;
+	padding: 5px 7px;
+	border-bottom: 3px black solid;
+	cursor: default;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Основной блок(блок) */
+.main-block-pages{
+	width: 100%;
+	text-align: center;
+	margin: 90px 0 0 0;
+}
+.main-block-pages div {	
+	margin: 0 0 35px 0;
+}
+
+/* Ссылки-разделы(ссылка) */
+.first-pages{
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 800;
+	font-style: fantasy;
+	transition: 0.15s;
+	background-color: rgb(60,60,60);
+	border-top: 3px solid rgb(75,75,75);
+	border-bottom: 3px solid rgb(40,40,40);
+	outline: 1px black solid;
+	padding: 15px 10px;
+	color: white;
+	text-shadow: 1px 2px 0 black;
+	box-shadow: 0 3px 2px grey;
+	border-radius: 2px 0 2px 0;
+}
+.first-pages:hover{
+	background-color: rgba(70,70,70,1);
+	text-shadow: 1px 3px 0 black;
+	box-shadow: 0 4px 3px grey;
+	transform: scale(1.02);
+}
+.first-pages:active{
+	-webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+   	transform: scale(1);
+}
+
+

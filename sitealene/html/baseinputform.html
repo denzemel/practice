@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href="../css/mainpage.css" rel="stylesheet">
+	<link href="../css/baseinputform.css" rel="stylesheet" >
+	<script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/formsave.js"></script>
+	<script src="../js/disable.js"></script>
+
+</head>
+<body>
+	
+	<header class="head">	
+		<a href="mainpage.html" title="К истокам" class="back-home"><b>На главную</b></a>	
+		<H2>Педиатрия</H2>
+	</header>
+
+	<div class="block-form">
+		
+			<span class="title-form">
+				<input id="title" value="" disabled>
+			</span>
+
+				<textarea class="autoExpand" id="descr" rows='5' data-min-rows='8' disabled>
+				</textarea>
+				
+
+				<div class="blockButt">
+					<input type="button" class="buttSave" value="Сохранить" onclick="disable()">	
+					<input type="button" class="buttEdit" value="Редактировать" onclick="enable()">
+				</div>
+		
+	</div>
+	
+</body>
+</html>
